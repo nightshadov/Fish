@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://HexGrid.gd" type="Script" id=1]
+[ext_resource path="res://Game/Camera/Camera.gd" type="Script" id=2]
+[ext_resource path="res://examples/item_database.gd" type="Script" id=3]
+
+[node name="Main" type="Spatial"]
+
+[node name="HexGrid" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.5, 0, 0, 0, 1, 0, 0, -5 )
+script = ExtResource( 1 )
+grid_size = 20
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 0.479887, 0.438665, -0.75979, 0, 0.866025, 0.5, 0.87733, -0.239943, 0.415594, 0.749447, 5.30009, 0.427931 )
+script = ExtResource( 2 )
+
+[node name="Items" type="Node" parent="."]
+script = ExtResource( 3 )

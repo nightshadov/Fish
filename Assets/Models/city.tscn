@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Assets/Models/city_fin23.obj" type="ArrayMesh" id=1]
+
+[node name="city" type="Spatial"]
+
+[node name="city_mesh" type="MeshInstance" parent="."]
+transform = Transform( 0.04, 0, 0, 0, -1.74846e-09, 0.04, 0, -0.04, -1.74846e-09, 0, 0, 0 )
+mesh = ExtResource( 1 )
+material/0 = null

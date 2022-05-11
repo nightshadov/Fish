@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/city_fin23.obj-87cd244664fd74c5e2b2a50ac64c2060.mesh"
+
+[deps]
+
+files=[ "res://.import/city_fin23.obj-87cd244664fd74c5e2b2a50ac64c2060.mesh" ]
+
+source_file="res://Assets/Models/city_fin23.obj"
+dest_files=[ "res://.import/city_fin23.obj-87cd244664fd74c5e2b2a50ac64c2060.mesh", "res://.import/city_fin23.obj-87cd244664fd74c5e2b2a50ac64c2060.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
